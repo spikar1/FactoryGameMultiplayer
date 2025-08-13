@@ -1,0 +1,16 @@
+{
+  "dependencies": {
+    "colyseus.js": "^0.16.0"
+  },
+  "scripts": {
+    "start": "tsx watch src/index.ts",
+    "dev": "tsx src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.2.1",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.20.4",
+    "typescript": "^5.9.2",
+    "vite": "^7.1.2"
+  }
+}
